@@ -1,4 +1,4 @@
-package main.hot100.哈希;
+package src.main.hot100.哈希;
 
 import java.util.*;
 
