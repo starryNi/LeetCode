@@ -20,3 +20,14 @@ Integer firstElement = deque.removeFirst();
 // 从队列尾部移除元素
 Integer lastElement = deque.removeLast();
 ```
+## 3.二维数组根据每个元素第一个值排序
+```java
+int[][] intervals;
+Arrays.sort(intervals, Comparator.comparingInt(value -> value[0]));
+```
+## 4.List转数组
+```java
+
+List<int[]> merged = new ArrayList<>();
+merged.toArray(new int[merged.size()][]);
+```
